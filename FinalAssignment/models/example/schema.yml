@@ -1,0 +1,32 @@
+
+version: 2
+
+models:
+  - name: Monthly_Avg
+    description: "Calculating monthly average"
+  - name: max_min
+    description: "max and min nav value"
+  - name: ended
+    description: "List of mutual funds which were discontinued in a given year"
+  - name: EndDate
+    description: "nav value of last date of that year"
+  - name: StartDate
+    description: "nav value of start date of that year"
+  - name: YTD
+    description: "performance based on YTD"
+  - name: start_month
+    description: "nav value of start date of particular month"
+  - name: end_month
+    description: "nav value of end_month of particular month"
+  - name: MTD
+    description: "performance based on MTD"
+  - name: inception
+    description: "performance based on inception returns"
+  - name: best_performing_mutualfund
+    description: "best_performing_mutualfund based on cagr"
+  - name: worst_performance_mutualfund
+    description: "worst_performing_mutualfund based on cagr"
+  - name: ytd_liquid
+    description: "ytd results for all funds in liquid fund category"
+  - name: mtd_liquid
+    description: "mtd results for all funds in liquid fund category"
